@@ -10,6 +10,14 @@ function App() {
     if (counter < 50) {
       counter = counter + 1;
       setCounter(counter);
+
+      /*
+      // interview question ----> what is output now with multiple setcounter(counter +1)
+      // output is O , output will be change is prevcounter because it takes callback function
+
+      // Answer
+      setCounter(prevCounter => prevCounter + 1)
+      */
     } else {
       alert("50 is last!!");
     }
