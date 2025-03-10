@@ -2,13 +2,13 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 
-function MyApp(){
-  return(
-    <div>
-      Custom App | Gaurav
-    </div>
-  )
-}
+// function MyApp(){
+//   return(
+//     <div>
+//       Custom App | Gaurav
+//     </div>
+//   )
+// }
 
 // const ReactElement = {
 //   type: "a",
